@@ -2,7 +2,7 @@
 
 namespace WebProject.Init.Base
 {
-    public class BaseMware : BaseLayer, IBaseMware
+    public class BaseMWare : BaseLayer, IBaseMWare
     {
     }
 }
