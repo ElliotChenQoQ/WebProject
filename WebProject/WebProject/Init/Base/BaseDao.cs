@@ -1,10 +1,15 @@
 ﻿using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using WebProject.Core.EntityFramework;
 using WebProject.Init.Base.Interface;
 
 namespace WebProject.Init.Base
 {
     public abstract class BaseDao : BaseLayer, IBaseDao
     {
+        private IServiceProvider _services;
+
         /// <summary>
         /// AutoMapper
         /// </summary>
@@ -18,9 +23,21 @@ namespace WebProject.Init.Base
         /// <summary>
         /// Initializes a new instance 
         /// </summary>
-        public BaseDao()
+        public BaseDao(IServiceProvider services)
         {
+            _services = services;
             AutoMapperConfiguration();
+        }
+
+        /// <summary>
+        /// 取得 Entity Framework Context
+        /// </summary>
+        /// <returns>Context</returns>
+        public dynamic GetContext()
+        {
+            MainContext context = ActivatorUtilities.CreateInstance<MainContext>(_services);
+
+            return context;
         }
     }
 }

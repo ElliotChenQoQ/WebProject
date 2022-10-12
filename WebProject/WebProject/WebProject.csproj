@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <Folder Include="Log\" />
-    <Folder Include="Models\BusinessModel\" />
     <Folder Include="AppData\" />
   </ItemGroup>
 
