@@ -2,7 +2,7 @@
 
 namespace WebProject.Extension
 {
-    public static class Extension
+    public static class StringExtension
     {
         /// <summary>
         /// Json字串映射物件

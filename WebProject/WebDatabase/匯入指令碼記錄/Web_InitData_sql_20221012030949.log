@@ -1,0 +1,10 @@
+2022/10/12 下午 11:09:49	此記錄包含使用者 'cca59 將指令碼 'Web_InitData.sql' 匯入電腦 'LAPTOP-FQVN4UJP' 上專案 'WebDatabase' 的匯入作業相關資訊。
+2022/10/12 下午 11:09:49	開始匯入檔案: C:\Users\cca59\OneDrive\文件\SQL Server Management Studio\Web_InitData.sql
+2022/10/12 下午 11:09:49	檔案名稱 C:\Users\cca59\OneDrive\文件\SQL Server Management Studio\Web_InitData.sql (大小: 764)
+2022/10/12 下午 11:09:49	正在剖析匯入指令碼
+2022/10/12 下午 11:09:49	指令碼中的批次總數: 2
+2022/10/12 下午 11:09:49	指令碼中的陳述式總數: 0
+2022/10/12 下午 11:09:49	指令碼已成功匯入專案。
+2022/10/12 下午 11:09:49	在您提供給匯入作業的指令碼中，有一個或多個陳述式無法完全了解。這些陳述式已移到 ScriptsIgnoredOnImport.sql 檔案。如需詳細資訊，請參閱此檔案。
+2022/10/12 下午 11:09:49	匯入的摘要已儲存到下列位置: C:\Users\cca59\source\repos\WebProject\WebProject\WebDatabase\匯入指令碼記錄\Web_InitData_sql_20221012030949.log
+2022/10/12 下午 11:09:49	按 [完成] 繼續進行...
